@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:background="#9ec8c5c5"
+
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:backgroundTintMode="src_over"
+    android:baselineAligned="false">
+
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:height="100dp"
+        android:ems="10"
+        android:hint="Enter num here"
+        android:inputType="number"
+        android:background="#97fbe9e9"/>
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:height="100dp"
+        android:ems="10"
+        android:hint="Enter num here"
+        android:inputType="number"
+        android:textColorLink="#1d1d01"
+        android:background="#97fbe9e9" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Result"
+        android:textAlignment="center"
+        android:textColor="#ad030003"
+        android:textSize="35sp"
+        android:background="#97d6ffeb" />
+
+
+
+    <Button
+        android:id="@+id/buttonadd"
+        android:layout_width="152dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="10dp"
+        android:background="#adb9e7fc"
+        android:text="Add"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/buttonsubtract"
+        android:layout_width="148dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="#adb9e7fc"
+        android:text="subtract"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/buttonmultiply"
+        android:layout_width="133dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="#adb9e7fc"
+        android:text="@string/multiply"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/buttondivide"
+        android:layout_width="136dp"
+
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:background="#adb9e7fc"
+        android:text="divide"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/onebtnalert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:layout_gravity="center"
+        android:onClick="open"
+        android:layout_marginTop="35dp"
+        />
+
+
+
+</LinearLayout>
